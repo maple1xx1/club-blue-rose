@@ -857,6 +857,11 @@ body > .page-layout {
   .access-text p {
     font-size: 15px;
   }
+  .access-map img {
+  width: 60%;
+  height: auto;
+  margin: 0 auto;
+}
 
   /* TOPへ戻る */
   .back-top a {
