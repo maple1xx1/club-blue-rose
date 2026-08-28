@@ -739,9 +739,13 @@ body > .page-layout {
     display: block;
   }
 
-  .access-map {
-    width: 100%;
-  }
+.access-map img {
+  display: block;
+  width: 25%;
+  height: auto;
+
+  margin: 0 auto;
+}
 
   .access-text {
     width: 100%;
