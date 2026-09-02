@@ -238,6 +238,23 @@ body > .page-layout {
     0 0 5px #0066ff,
     0 0 10px #0066ff;
 }
+
+.menu-products {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.menu-products img {
+  width: calc(50% - 10px);
+  height: auto;
+  display: block;
+}
+
+
+
 .event-section {
   position: relative;
   width: 100%;
@@ -888,4 +905,30 @@ body > .page-layout {
   aspect-ratio: 9 / 16;
   height: auto;
   border: 0;
+}
+.menu-products {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.menu-products img {
+  width: calc(50% - 10px);
+  height: auto;
+  display: block;
+}
+
+/* スマホ */
+@media (max-width: 768px) {
+  .menu-products {
+    flex-direction: column;
+    gap: 15px;
+    padding: 0 10px;
+  }
+
+  .menu-products img {
+    width: 100%;
+  }
 }
